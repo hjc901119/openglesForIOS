@@ -30,6 +30,8 @@
 -(void) display;
 @end
 
+
+
 @protocol AGLKViewDelegate <NSObject>
 
 @required

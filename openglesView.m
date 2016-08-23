@@ -8,6 +8,8 @@
 
 #import "openglesView.h"
 #import <GLKit/GLKTextureLoader.h>
+#import "AGLKTextureInfo.h"
+
 
 typedef struct {
     GLKVector3 positionCoords;
@@ -40,6 +42,8 @@ static const SceneVertex vertices[]=
 
     CGImageRef imageRef = [[UIImage imageNamed:@"icon.png"] CGImage];
     GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:nil];
+//    AGLKTextureInfo *textureInfo = [AGLKTextureInfo textureWithCGImage:imageRef options:nil error:nil];
+    
     self.baseEffect.texture2d0.name = textureInfo.name;
     self.baseEffect.texture2d0.target = textureInfo.target;
     

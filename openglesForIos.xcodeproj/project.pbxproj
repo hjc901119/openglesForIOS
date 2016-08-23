@@ -23,6 +23,7 @@
 		CF24A1811D6C1038001AE2AF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A1801D6C1038001AE2AF /* icon.png */; };
 		CF24A1841D6C1DF7001AE2AF /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24A1831D6C1DF7001AE2AF /* AGLKContext.m */; };
 		CF24A1871D6C2788001AE2AF /* AGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24A1861D6C2788001AE2AF /* AGLKView.m */; };
+		CF24A18A1D6C55DF001AE2AF /* AGLKTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24A1891D6C55DF001AE2AF /* AGLKTextureInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		CF24A1831D6C1DF7001AE2AF /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
 		CF24A1851D6C2788001AE2AF /* AGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKView.h; sourceTree = "<group>"; };
 		CF24A1861D6C2788001AE2AF /* AGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKView.m; sourceTree = "<group>"; };
+		CF24A1881D6C55DF001AE2AF /* AGLKTextureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureInfo.h; sourceTree = "<group>"; };
+		CF24A1891D6C55DF001AE2AF /* AGLKTextureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				CF24A1831D6C1DF7001AE2AF /* AGLKContext.m */,
 				CF24A1851D6C2788001AE2AF /* AGLKView.h */,
 				CF24A1861D6C2788001AE2AF /* AGLKView.m */,
+				CF24A1881D6C55DF001AE2AF /* AGLKTextureInfo.h */,
+				CF24A1891D6C55DF001AE2AF /* AGLKTextureInfo.m */,
 			);
 			name = OpengleView;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF24A18A1D6C55DF001AE2AF /* AGLKTextureInfo.m in Sources */,
 				CF24A1841D6C1DF7001AE2AF /* AGLKContext.m in Sources */,
 				CF24A1481D6BE7EE001AE2AF /* ViewController.m in Sources */,
 				CF24A1751D6BEB31001AE2AF /* openglesView.m in Sources */,
@@ -550,6 +556,7 @@
 				CF24A16C1D6BE7EE001AE2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF24A16D1D6BE7EE001AE2AF /* Build configuration list for PBXNativeTarget "openglesForIosTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +565,7 @@
 				CF24A16F1D6BE7EE001AE2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF24A1701D6BE7EE001AE2AF /* Build configuration list for PBXNativeTarget "openglesForIosUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +574,7 @@
 				CF24A1721D6BE7EE001AE2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
